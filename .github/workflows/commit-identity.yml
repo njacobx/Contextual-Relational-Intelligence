@@ -1,0 +1,34 @@
+# Every commit in this repository is authored and committed by Nick Jacob (GitHub's no-reply address), with no co-author trailers.
+# (GitHub's own merge commits may carry GitHub as the committer.)
+name: commit identity
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  only-nick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Authors, committers and trailers
+        shell: bash
+        run: |
+          set -euo pipefail
+          bad=0
+          # Nick's GitHub no-reply addresses (local commits and edits made on github.com)
+          is_nick() { [[ "$1" == "njacobx@users.noreply.github.com" || "$1" =~ ^[0-9]+\+njacobx@users\.noreply\.github\.com$ ]]; }
+          while IFS='|' read -r sha an ae cn ce; do
+            if [[ "$an" != "Nick Jacob" ]] || ! is_nick "$ae"; then
+              echo "::error::$sha is authored by '$an <$ae>', not Nick Jacob"; bad=1
+            fi
+            if [[ "$ce" != "noreply@github.com" ]] && { [[ "$cn" != "Nick Jacob" ]] || ! is_nick "$ce"; }; then
+              echo "::error::$sha is committed by '$cn <$ce>'"; bad=1
+            fi
+            if git log -1 --format=%B "$sha" | grep -qiE '^co-authored-by:|generated (with|by) '; then
+              echo "::error::$sha carries a co-author or generated-by trailer"; bad=1
+            fi
+          done < <(git log --format='%H|%an|%ae|%cn|%ce' HEAD)
+          exit $bad

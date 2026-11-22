@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="800" viewBox="0 0 1600 800" role="img" aria-labelledby="hero-title hero-desc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="hero-title">Contextual Relational Intelligence: give characters a history, see why they changed, test what caused it</title>
+<desc id="hero-desc">An engine-independent cognitive engine for persistent artificial individuals, in development and built first inside Luminids. It works with Unity, Unreal Engine, Godot or your own engine. What CRI gives your characters: persistent history, individual knowledge, inspectable causality, and intervention and replay.</desc>
+<defs>
+  <radialGradient id="hero-glow1" cx="1376" cy="0" r="880" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5" stop-opacity=".13"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="hero-glow2" cx="0" cy="800" r="720" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".07"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="hero-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <clipPath id="hero-card"><rect width="1600" height="800" rx="40"/></clipPath>
+  <marker id="hero-a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3FA9F5"/></marker>
+  <marker id="hero-a-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+  <marker id="hero-a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A9B4C0"/></marker>
+  <marker id="hero-a-warm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F7C873"/></marker>
+  <marker id="hero-a-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8FCBFA"/></marker>
+  <symbol id="hero-ic-memory" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <rect x="15" y="10" width="18" height="6" rx="3" fill="#3FA9F5" opacity=".3" stroke="none"/>
+    <rect x="12.5" y="20" width="23" height="6.5" rx="3.25" fill="#3FA9F5" opacity=".6" stroke="none"/>
+    <rect x="10" y="30.5" width="28" height="8" rx="4" fill="#3FA9F5" stroke="none"/>
+  </g></symbol>
+  <symbol id="hero-ic-perception" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M10 15a20 20 0 0 1 0 18" stroke="#3FA9F5" opacity=".35"/>
+    <path d="M17.5 18.5a13 13 0 0 1 0 11" stroke="#3FA9F5" opacity=".62"/>
+    <path d="M25 22a6 6 0 0 1 0 4" stroke="#3FA9F5"/>
+    <circle cx="36" cy="24" r="4.2" fill="#F7C873" stroke="none"/>
+  </g></symbol>
+  <symbol id="hero-ic-inspect" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M8 14h16" stroke="#EEF7FF" opacity=".8"/>
+    <path d="M8 23h10" stroke="#EEF7FF" opacity=".8"/>
+    <path d="M8 32h13.5" stroke="#EEF7FF" opacity=".8"/>
+    <circle cx="31.5" cy="22" r="8" stroke="#3FA9F5"/>
+    <path d="M37.5 28 42 32.5" stroke="#3FA9F5"/>
+  </g></symbol>
+  <symbol id="hero-ic-replay" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M38.5 20.5A15.5 15.5 0 1 1 32.5 11" stroke="#2DD4BF"/><path d="M33 3.5v8.5h-8.5" stroke="#2DD4BF"/><path d="M20 18.5v12l9.5-6z" fill="#2DD4BF" stroke="#2DD4BF" stroke-width="2.5"/></g></symbol>
+  <linearGradient id="hero-head" x1="80" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+</defs>
+<rect width="1600" height="800" rx="40" fill="#0D1117"/>
+<rect width="1600" height="800" rx="40" fill="url(#hero-glow1)"/>
+<rect width="1600" height="800" rx="40" fill="url(#hero-glow2)"/>
+<rect x="1" y="1" width="1598" height="798" rx="39" fill="none" stroke="#1E2935" stroke-width="2"/>
+<rect x="80" y="187" width="36" height="4" rx="2" fill="url(#hero-accent)"/>
+<text x="130" y="196" font-size="20" font-weight="700" fill="#A8BAC9" letter-spacing="3">CONTEXTUAL RELATIONAL INTELLIGENCE</text>
+<text x="646" y="188" font-size="16" font-weight="600" fill="#A8BAC9">™</text>
+<text x="77" y="288" font-size="56" font-weight="800" fill="url(#hero-head)" letter-spacing="-1.2">Give characters a history.</text>
+<text x="77" y="358" font-size="56" font-weight="800" fill="url(#hero-head)" letter-spacing="-1.2">See why they changed.</text>
+<text x="77" y="428" font-size="56" font-weight="800" fill="url(#hero-head)" letter-spacing="-1.2">Test what caused it.</text>
+<text x="80" y="498" font-size="26" fill="#C9D6E1">An engine-independent cognitive engine for</text>
+<text x="80" y="536" font-size="26" fill="#C9D6E1">persistent artificial individuals. In development,</text>
+<text x="80" y="574" font-size="26" fill="#C9D6E1">built first inside Luminids, our own game.</text>
+<rect x="80" y="612" width="101" height="46" rx="23" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="130.56" y="642.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Unity</text>
+<rect x="195.12" y="612" width="195" height="46" rx="23" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="292.6" y="642.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Unreal Engine</text>
+<rect x="404.08" y="612" width="109" height="46" rx="23" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="458.72" y="642.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Godot</text>
+<rect x="527.36" y="612" width="227" height="46" rx="23" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="640.65" y="642.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Your own engine</text>
+<text x="880" y="108" font-size="20" font-weight="700" fill="#8FA3B5" letter-spacing="3">WHAT CRI GIVES YOUR CHARACTERS</text>
+<rect x="880" y="132" width="640" height="136" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.42" stroke-width="1.5"/>
+<circle cx="944" cy="200" r="36" fill="#12263A" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="1.5"/>
+<use href="#hero-ic-memory" x="916" y="172" width="56" height="56"/>
+<text x="1006" y="184" font-size="28" font-weight="700" fill="#EEF7FF">Persistent history</text>
+<text x="1006" y="220" font-size="24" fill="#A8BAC9">Memory, beliefs and relationships</text>
+<text x="1006" y="250" font-size="24" fill="#A8BAC9">carry across sessions and saves.</text>
+<rect x="880" y="282" width="640" height="136" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.42" stroke-width="1.5"/>
+<circle cx="944" cy="350" r="36" fill="#12263A" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="1.5"/>
+<use href="#hero-ic-perception" x="916" y="322" width="56" height="56"/>
+<text x="1006" y="334" font-size="28" font-weight="700" fill="#EEF7FF">Individual knowledge</text>
+<text x="1006" y="370" font-size="24" fill="#A8BAC9">Each character knows only what</text>
+<text x="1006" y="400" font-size="24" fill="#A8BAC9">reached them, not the whole world.</text>
+<rect x="880" y="432" width="640" height="136" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.42" stroke-width="1.5"/>
+<circle cx="944" cy="500" r="36" fill="#12263A" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="1.5"/>
+<use href="#hero-ic-inspect" x="916" y="472" width="56" height="56"/>
+<text x="1006" y="484" font-size="28" font-weight="700" fill="#EEF7FF">Inspectable causality</text>
+<text x="1006" y="520" font-size="24" fill="#A8BAC9">Trace any response back to the</text>
+<text x="1006" y="550" font-size="24" fill="#A8BAC9">experience and state behind it.</text>
+<rect x="880" y="582" width="640" height="136" rx="24" fill="#151D27" stroke="#2DD4BF" stroke-opacity="0.42" stroke-width="1.5"/>
+<circle cx="944" cy="650" r="36" fill="#0F2E2C" stroke="#2DD4BF" stroke-opacity=".45" stroke-width="1.5"/>
+<use href="#hero-ic-replay" x="916" y="622" width="56" height="56"/>
+<text x="1006" y="634" font-size="28" font-weight="700" fill="#EEF7FF">Intervention and replay</text>
+<text x="1006" y="670" font-size="24" fill="#A8BAC9">Change one internal cause, replay,</text>
+<text x="1006" y="700" font-size="24" fill="#A8BAC9">and see whether the result changes.</text>
+</svg>

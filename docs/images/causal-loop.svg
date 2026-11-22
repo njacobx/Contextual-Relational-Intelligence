@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="loop-title loop-desc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="loop-title">A life has a causal history: the causal trace of one individual</title>
+<desc id="loop-desc">One individual, Astra, at the centre of a loop of eight stages, recorded when she decided rather than told after the fact. Observed: the path flooded. Believed: storms flood the path. Appraised: Quill could get hurt. Wanted: keep Quill safe. Chose: warn Quill. Acted: ran to find Quill. Discovered: the path stayed dry. Revised: not every storm floods. A dashed return arrow from revised back to observed shows that revision changes what comes next.</desc>
+<defs>
+  <radialGradient id="loop-glow1" cx="1376" cy="0" r="880" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5" stop-opacity=".13"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="loop-glow2" cx="0" cy="960" r="720" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".07"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="loop-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <clipPath id="loop-card"><rect width="1600" height="960" rx="40"/></clipPath>
+  <marker id="loop-a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3FA9F5"/></marker>
+  <marker id="loop-a-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+  <marker id="loop-a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A9B4C0"/></marker>
+  <marker id="loop-a-warm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F7C873"/></marker>
+  <marker id="loop-a-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8FCBFA"/></marker>
+  <path id="loop-lum" d="M31.75 4.04C32.42 4.10 36.30 4.45 37.49 4.72C38.68 4.98 41.23 5.93 42.22 6.41C43.22 6.88 45.45 8.31 46.28 8.94C47.10 9.57 48.83 11.23 49.49 11.98C50.14 12.73 51.54 14.72 52.02 15.53C52.50 16.33 53.25 17.58 53.71 19.08C54.17 20.57 55.21 26.94 56.07 28.71C56.94 30.47 60.56 33.70 61.31 34.62C62.06 35.54 62.47 36.34 62.66 36.81C62.85 37.29 63.02 38.46 63.00 38.84C62.98 39.22 62.76 39.89 62.49 40.19C62.23 40.50 60.98 41.37 60.63 41.54C60.29 41.72 59.87 41.79 59.45 41.71C59.03 41.64 57.53 41.18 56.92 40.87C56.31 40.56 54.66 38.67 54.05 39.01C53.43 39.36 52.01 43.14 51.51 43.91C51.01 44.68 50.23 45.33 49.65 45.77C49.08 46.21 46.96 46.67 46.44 47.80C45.93 48.93 45.40 54.55 45.09 55.74C44.79 56.92 44.18 57.79 43.74 58.27C43.30 58.75 41.74 59.79 41.21 59.96C40.67 60.13 39.49 60.00 39.01 59.79C38.53 59.58 37.40 59.10 36.98 58.10C36.56 57.11 36.23 51.81 35.29 51.01C34.36 50.20 29.66 50.16 28.71 51.01C27.75 51.85 27.27 57.44 26.85 58.44C26.43 59.43 25.51 59.64 24.99 59.79C24.47 59.94 22.82 59.96 22.29 59.79C21.75 59.62 20.62 58.69 20.26 58.27C19.90 57.85 19.34 56.84 19.08 56.07C18.81 55.31 18.07 52.45 17.89 51.51C17.72 50.57 17.96 48.45 17.56 47.80C17.15 47.14 14.92 46.21 14.35 45.77C13.77 45.33 12.99 44.68 12.49 43.91C11.99 43.14 10.76 39.28 9.95 39.01C9.15 38.74 6.18 41.28 5.39 41.54C4.61 41.81 3.47 41.53 3.03 41.38C2.59 41.22 1.74 40.48 1.51 40.19C1.28 39.91 1.02 39.22 1.00 38.84C0.98 38.46 1.07 37.39 1.34 36.81C1.61 36.24 2.62 34.69 3.37 33.77C4.11 32.85 7.31 29.51 7.93 28.71C8.54 27.90 8.62 27.39 8.77 26.68C8.92 25.97 9.09 23.37 9.28 22.46C9.47 21.54 9.91 19.72 10.46 18.57C11.02 17.42 13.33 13.43 14.18 12.32C15.02 11.21 17.07 9.42 17.89 8.77C18.72 8.12 20.46 7.03 21.44 6.57C22.42 6.12 25.36 4.98 26.51 4.72C27.66 4.45 30.98 4.29 31.58 4.21C32.17 4.13 31.08 3.98 31.75 4.04Z"/>
+  <g id="loop-face"><ellipse cx="18.9" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="45.1" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="23" cy="24" rx="2.15" ry="3" fill="#141C26"/><ellipse cx="40.7" cy="24" rx="2.15" ry="3" fill="#141C26"/><circle cx="23.75" cy="22.75" r=".8" fill="#FFFFFF"/><circle cx="41.45" cy="22.75" r=".8" fill="#FFFFFF"/><path d="M28.6 29.4c1.8 2.3 5 2.3 6.8 0" fill="none" stroke="#141C26" stroke-width="1.6" stroke-linecap="round"/></g>
+  <radialGradient id="loop-lum-blue" cx=".38" cy=".26" r=".82"><stop offset="0" stop-color="#C4E7FF"/><stop offset=".42" stop-color="#6CC0F8"/><stop offset=".78" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2A86CC"/></radialGradient>
+  <symbol id="loop-ic-perception" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M10 15a20 20 0 0 1 0 18" stroke="#3FA9F5" opacity=".35"/>
+    <path d="M17.5 18.5a13 13 0 0 1 0 11" stroke="#3FA9F5" opacity=".62"/>
+    <path d="M25 22a6 6 0 0 1 0 4" stroke="#3FA9F5"/>
+    <circle cx="36" cy="24" r="4.2" fill="#F7C873" stroke="none"/>
+  </g></symbol>
+  <symbol id="loop-ic-belief" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <rect x="9" y="9" width="30" height="16" rx="8" stroke="#EEF7FF"/>
+    <path d="M16 25v13" stroke="#3FA9F5"/>
+    <path d="M24 25v13" stroke="#3FA9F5"/>
+    <path d="M32 25v6.5" stroke="#A9B4C0"/>
+  </g></symbol>
+  <symbol id="loop-ic-appraisal" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <circle cx="7.5" cy="24" r="2.3" fill="#F7C873" stroke="none"/>
+    <path d="M11.5 24h5.5" stroke="#A9B4C0"/>
+    <rect x="20" y="11" width="21" height="26" rx="8" stroke="#3FA9F5"/>
+    <circle cx="30.5" cy="24" r="5.6" fill="#F7C873" stroke="none"/>
+  </g></symbol>
+  <symbol id="loop-ic-goal" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M9 38c5.5-13 13-19.5 22.5-21.5" stroke="#A9B4C0" stroke-dasharray="3 4.5"/>
+    <circle cx="35.5" cy="15" r="7" stroke="#2DD4BF"/>
+    <circle cx="35.5" cy="15" r="2.9" fill="#2DD4BF" stroke="none"/>
+  </g></symbol>
+  <symbol id="loop-ic-decision" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <circle cx="10.5" cy="24" r="3.6" fill="#EEF7FF" stroke="none"/>
+    <path d="M14.5 22 24.5 14" stroke="#3FA9F5"/>
+    <circle cx="29" cy="10.5" r="3.6" fill="#3FA9F5" stroke="none"/>
+    <path d="M14.5 26 24.5 34" stroke="#A9B4C0" stroke-dasharray="3 4"/>
+    <circle cx="29" cy="37.5" r="3.4" stroke="#A9B4C0" stroke-width="3.4"/>
+  </g></symbol>
+  <symbol id="loop-ic-action" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <circle cx="11" cy="37" r="3.7" fill="#3FA9F5" stroke="none"/>
+    <path d="M14 34 26.5 21.5" stroke="#EEF7FF"/>
+    <circle cx="30.5" cy="17.5" r="3.6" fill="#F7C873" stroke="none"/>
+    <path d="M35.5 12.5a10.5 10.5 0 0 1 0 10" stroke="#F7C873" stroke-width="3.4" opacity=".7"/>
+  </g></symbol>
+  <symbol id="loop-ic-discovery" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <circle cx="24" cy="25" r="6.2" fill="#F7C873" stroke="none"/>
+    <path d="M24 12.5V8" stroke="#F7C873" stroke-width="3.6" opacity=".85"/>
+    <path d="M33.5 15.5 36.5 12.5" stroke="#F7C873" stroke-width="3.6" opacity=".85"/>
+    <path d="M14.5 15.5 11.5 12.5" stroke="#F7C873" stroke-width="3.6" opacity=".85"/>
+    <path d="M14 37.5a13 13 0 0 0 20 0" stroke="#A9B4C0" stroke-dasharray="3 4"/>
+  </g></symbol>
+  <symbol id="loop-ic-revise" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M38.5 20.5A15.5 15.5 0 1 1 32.5 11" stroke="#2DD4BF"/><path d="M33 3.5v8.5h-8.5" stroke="#2DD4BF"/><circle cx="23" cy="26" r="5" fill="#2DD4BF" stroke="none"/></g></symbol>
+  <radialGradient id="loop-halo-blue"><stop offset="0" stop-color="#3FA9F5" stop-opacity="0.22"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="960" rx="40" fill="#0D1117"/>
+<rect width="1600" height="960" rx="40" fill="url(#loop-glow1)"/>
+<rect width="1600" height="960" rx="40" fill="url(#loop-glow2)"/>
+<rect x="1" y="1" width="1598" height="958" rx="39" fill="none" stroke="#1E2935" stroke-width="2"/>
+<rect x="80" y="91" width="36" height="4" rx="2" fill="url(#loop-accent)"/>
+<text x="130" y="100" font-size="20" font-weight="700" fill="#A8BAC9" letter-spacing="3">CRI TRACE</text>
+<text x="78" y="166" font-size="52" font-weight="800" fill="#EEF7FF" letter-spacing="-1">A life has a causal history.</text>
+<text x="80" y="212" font-size="26" fill="#A8BAC9">Recorded when she decided. Not a story told after the fact.</text>
+<path d="M352 400 H575" stroke="#3FA9F5" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-blue)"/>
+<path d="M1248 720 H1025" stroke="#3FA9F5" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-blue)"/>
+<path d="M685 400 H909" stroke="#3FA9F5" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-blue)"/>
+<path d="M915 720 H691" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-teal)"/>
+<path d="M1019 400 H1242" stroke="#3FA9F5" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-blue)"/>
+<path d="M581 720 H358" stroke="#2DD4BF" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-teal)"/>
+<path d="M1352 400 C1490 400 1490 720 1358 720" fill="none" stroke="#3FA9F5" stroke-opacity=".7" stroke-width="4" marker-end="url(#loop-a-blue)"/>
+<path d="M248 720 C110 720 110 400 242 400" fill="none" stroke="#2DD4BF" stroke-width="4" stroke-dasharray="11 9" marker-end="url(#loop-a-teal)"/>
+<circle cx="300" cy="400" r="46" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<use href="#loop-ic-perception" x="274" y="374" width="52" height="52"/>
+<text x="300" y="288" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Observed</text>
+<text x="300" y="322" font-size="24" fill="#A8BAC9" text-anchor="middle">The path flooded.</text>
+<circle cx="633" cy="400" r="46" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<use href="#loop-ic-belief" x="607" y="374" width="52" height="52"/>
+<text x="633" y="288" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Believed</text>
+<text x="633" y="322" font-size="24" fill="#A8BAC9" text-anchor="middle">Storms flood the path.</text>
+<circle cx="967" cy="400" r="46" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<use href="#loop-ic-appraisal" x="941" y="374" width="52" height="52"/>
+<text x="967" y="288" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Appraised</text>
+<text x="967" y="322" font-size="24" fill="#A8BAC9" text-anchor="middle">Quill could get hurt.</text>
+<circle cx="1300" cy="400" r="46" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<use href="#loop-ic-goal" x="1274" y="374" width="52" height="52"/>
+<text x="1300" y="288" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Wanted</text>
+<text x="1300" y="322" font-size="24" fill="#A8BAC9" text-anchor="middle">Keep Quill safe.</text>
+<circle cx="1300" cy="720" r="46" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<use href="#loop-ic-decision" x="1274" y="694" width="52" height="52"/>
+<text x="1300" y="812" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Chose</text>
+<text x="1300" y="846" font-size="24" fill="#A8BAC9" text-anchor="middle">Warn Quill.</text>
+<circle cx="967" cy="720" r="46" fill="#151D27" stroke="#2DD4BF" stroke-width="3"/>
+<use href="#loop-ic-action" x="941" y="694" width="52" height="52"/>
+<text x="967" y="812" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Acted</text>
+<text x="967" y="846" font-size="24" fill="#A8BAC9" text-anchor="middle">Ran to find Quill.</text>
+<circle cx="633" cy="720" r="46" fill="#151D27" stroke="#F7C873" stroke-width="3"/>
+<use href="#loop-ic-discovery" x="607" y="694" width="52" height="52"/>
+<text x="633" y="812" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Discovered</text>
+<text x="633" y="846" font-size="24" fill="#A8BAC9" text-anchor="middle">The path stayed dry.</text>
+<circle cx="300" cy="720" r="46" fill="#151D27" stroke="#2DD4BF" stroke-width="3"/>
+<use href="#loop-ic-revise" x="274" y="694" width="52" height="52"/>
+<text x="300" y="812" font-size="28" font-weight="700" fill="#EEF7FF" text-anchor="middle">Revised</text>
+<text x="300" y="846" font-size="24" fill="#A8BAC9" text-anchor="middle">Not every storm floods.</text>
+<circle cx="800" cy="555" r="115" fill="url(#loop-halo-blue)"/>
+<g transform="translate(720 470) scale(2.5)"><ellipse cx="32" cy="61" rx="19" ry="2.6" fill="#000000" opacity=".38"/><use href="#loop-lum" fill="url(#loop-lum-blue)" stroke="#FFFFFF" stroke-opacity=".18" stroke-width=".7"/><use href="#loop-face"/></g>
+<text x="800" y="666" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Astra, one individual</text>
+<text x="292" y="548" font-size="22" font-weight="600" fill="#8CEBDD">Revision changes</text>
+<text x="292" y="578" font-size="22" font-weight="600" fill="#8CEBDD">what comes next.</text>
+</svg>

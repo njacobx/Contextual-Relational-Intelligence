@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1160" viewBox="0 0 1600 1160" role="img" aria-labelledby="pov-title pov-desc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="pov-title">One world. Many points of view.</title>
+<desc id="pov-desc">A storm reaches the colony. The event is shared; the evidence is not. Astra sees it happen, so she holds direct evidence: she remembers it and acts on it. Quill arrives afterwards, finds the aftermath and revises what she expected. Fenn has no route to the event and holds no belief about it: the world knows, Fenn does not.</desc>
+<defs>
+  <radialGradient id="pov-glow1" cx="1376" cy="0" r="880" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5" stop-opacity=".13"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="pov-glow2" cx="0" cy="1160" r="720" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".07"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="pov-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <clipPath id="pov-card"><rect width="1600" height="1160" rx="40"/></clipPath>
+  <marker id="pov-a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3FA9F5"/></marker>
+  <marker id="pov-a-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+  <marker id="pov-a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A9B4C0"/></marker>
+  <marker id="pov-a-warm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F7C873"/></marker>
+  <marker id="pov-a-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8FCBFA"/></marker>
+  <path id="pov-lum" d="M31.75 4.04C32.42 4.10 36.30 4.45 37.49 4.72C38.68 4.98 41.23 5.93 42.22 6.41C43.22 6.88 45.45 8.31 46.28 8.94C47.10 9.57 48.83 11.23 49.49 11.98C50.14 12.73 51.54 14.72 52.02 15.53C52.50 16.33 53.25 17.58 53.71 19.08C54.17 20.57 55.21 26.94 56.07 28.71C56.94 30.47 60.56 33.70 61.31 34.62C62.06 35.54 62.47 36.34 62.66 36.81C62.85 37.29 63.02 38.46 63.00 38.84C62.98 39.22 62.76 39.89 62.49 40.19C62.23 40.50 60.98 41.37 60.63 41.54C60.29 41.72 59.87 41.79 59.45 41.71C59.03 41.64 57.53 41.18 56.92 40.87C56.31 40.56 54.66 38.67 54.05 39.01C53.43 39.36 52.01 43.14 51.51 43.91C51.01 44.68 50.23 45.33 49.65 45.77C49.08 46.21 46.96 46.67 46.44 47.80C45.93 48.93 45.40 54.55 45.09 55.74C44.79 56.92 44.18 57.79 43.74 58.27C43.30 58.75 41.74 59.79 41.21 59.96C40.67 60.13 39.49 60.00 39.01 59.79C38.53 59.58 37.40 59.10 36.98 58.10C36.56 57.11 36.23 51.81 35.29 51.01C34.36 50.20 29.66 50.16 28.71 51.01C27.75 51.85 27.27 57.44 26.85 58.44C26.43 59.43 25.51 59.64 24.99 59.79C24.47 59.94 22.82 59.96 22.29 59.79C21.75 59.62 20.62 58.69 20.26 58.27C19.90 57.85 19.34 56.84 19.08 56.07C18.81 55.31 18.07 52.45 17.89 51.51C17.72 50.57 17.96 48.45 17.56 47.80C17.15 47.14 14.92 46.21 14.35 45.77C13.77 45.33 12.99 44.68 12.49 43.91C11.99 43.14 10.76 39.28 9.95 39.01C9.15 38.74 6.18 41.28 5.39 41.54C4.61 41.81 3.47 41.53 3.03 41.38C2.59 41.22 1.74 40.48 1.51 40.19C1.28 39.91 1.02 39.22 1.00 38.84C0.98 38.46 1.07 37.39 1.34 36.81C1.61 36.24 2.62 34.69 3.37 33.77C4.11 32.85 7.31 29.51 7.93 28.71C8.54 27.90 8.62 27.39 8.77 26.68C8.92 25.97 9.09 23.37 9.28 22.46C9.47 21.54 9.91 19.72 10.46 18.57C11.02 17.42 13.33 13.43 14.18 12.32C15.02 11.21 17.07 9.42 17.89 8.77C18.72 8.12 20.46 7.03 21.44 6.57C22.42 6.12 25.36 4.98 26.51 4.72C27.66 4.45 30.98 4.29 31.58 4.21C32.17 4.13 31.08 3.98 31.75 4.04Z"/>
+  <g id="pov-face"><ellipse cx="18.9" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="45.1" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="23" cy="24" rx="2.15" ry="3" fill="#141C26"/><ellipse cx="40.7" cy="24" rx="2.15" ry="3" fill="#141C26"/><circle cx="23.75" cy="22.75" r=".8" fill="#FFFFFF"/><circle cx="41.45" cy="22.75" r=".8" fill="#FFFFFF"/><path d="M28.6 29.4c1.8 2.3 5 2.3 6.8 0" fill="none" stroke="#141C26" stroke-width="1.6" stroke-linecap="round"/></g>
+  <radialGradient id="pov-lum-blue" cx=".38" cy=".26" r=".82"><stop offset="0" stop-color="#C4E7FF"/><stop offset=".42" stop-color="#6CC0F8"/><stop offset=".78" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2A86CC"/></radialGradient>
+  <radialGradient id="pov-lum-teal" cx=".38" cy=".26" r=".82"><stop offset="0" stop-color="#B9F7EC"/><stop offset=".42" stop-color="#5FE0CF"/><stop offset=".78" stop-color="#2DD4BF"/><stop offset="1" stop-color="#1C9F8E"/></radialGradient>
+  <radialGradient id="pov-lum-grey" cx=".38" cy=".26" r=".82"><stop offset="0" stop-color="#EDF1F5"/><stop offset=".42" stop-color="#C2CBD5"/><stop offset=".78" stop-color="#A9B4C0"/><stop offset="1" stop-color="#7F8B99"/></radialGradient>
+  <radialGradient id="pov-storm"><stop offset="0" stop-color="#F7C873" stop-opacity=".55"/><stop offset=".35" stop-color="#F7C873" stop-opacity=".18"/><stop offset="1" stop-color="#F7C873" stop-opacity="0"/></radialGradient><radialGradient id="pov-halo-blue"><stop offset="0" stop-color="#3FA9F5" stop-opacity="0.2"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient><radialGradient id="pov-halo-teal"><stop offset="0" stop-color="#2DD4BF" stop-opacity="0.18"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient><radialGradient id="pov-halo-grey"><stop offset="0" stop-color="#A9B4C0" stop-opacity="0.1"/><stop offset="1" stop-color="#A9B4C0" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="1160" rx="40" fill="#0D1117"/>
+<rect width="1600" height="1160" rx="40" fill="url(#pov-glow1)"/>
+<rect width="1600" height="1160" rx="40" fill="url(#pov-glow2)"/>
+<rect x="1" y="1" width="1598" height="1158" rx="39" fill="none" stroke="#1E2935" stroke-width="2"/>
+<rect x="80" y="91" width="36" height="4" rx="2" fill="url(#pov-accent)"/>
+<text x="130" y="100" font-size="20" font-weight="700" fill="#A8BAC9" letter-spacing="3">POINTS OF VIEW</text>
+<text x="78" y="166" font-size="52" font-weight="800" fill="#EEF7FF" letter-spacing="-1">One world. Many points of view.</text>
+<text x="80" y="212" font-size="26" fill="#A8BAC9">The event is shared. The evidence is not.</text>
+<path d="M0 760 C300 690 520 800 800 744 C1080 688 1300 730 1600 676 V1160 H0Z" fill="#0F1D22" opacity=".8" clip-path="url(#pov-card)"/>
+<circle cx="800" cy="330" r="190" fill="url(#pov-storm)"/>
+<g transform="translate(650 220) scale(.82)"><path d="M58 160 C40 104 92 62 146 82 C174 30 262 40 278 104 C330 104 360 146 342 190 C328 222 296 230 254 230 H70 C20 230 2 192 18 164 C28 146 44 160 58 160Z" fill="#2A3540" stroke="#A9B4C0" stroke-opacity=".55" stroke-width="2.4"/></g>
+<path d="M806 296 L766 360 H808 L776 422 L858 336 H814 L844 296Z" fill="#F7C873"/>
+<g stroke="#8FCBFA" stroke-width="7" stroke-linecap="round" opacity=".55"><path d="M708 412 l-16 34"/><path d="M744 412 l-16 34"/><path d="M884 412 l-16 34"/></g>
+<text x="800" y="480" font-size="20" font-weight="700" fill="#F7C873" text-anchor="middle" letter-spacing="3">WORLD EVENT</text>
+<text x="800" y="516" font-size="26" font-weight="600" fill="#EEF7FF" text-anchor="middle">A storm reaches the colony</text>
+<ellipse cx="320" cy="756" rx="220" ry="146" fill="#3FA9F5" fill-opacity=".035" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="320" cy="725" r="115" fill="url(#pov-halo-blue)"/>
+<g transform="translate(240 640) scale(2.5)"><ellipse cx="32" cy="61" rx="19" ry="2.6" fill="#000000" opacity=".38"/><use href="#pov-lum" fill="url(#pov-lum-blue)" stroke="#FFFFFF" stroke-opacity=".18" stroke-width=".7"/><use href="#pov-face"/></g>
+<text x="320" y="838" font-size="30" font-weight="700" fill="#EEF7FF" text-anchor="middle">Astra</text>
+<text x="320" y="872" font-size="22" fill="#A8BAC9" text-anchor="middle">saw it happen</text>
+<ellipse cx="800" cy="756" rx="220" ry="146" fill="#2DD4BF" fill-opacity=".035" stroke="#2DD4BF" stroke-opacity=".4" stroke-width="2" stroke-dasharray="12 10"/>
+<circle cx="800" cy="725" r="115" fill="url(#pov-halo-teal)"/>
+<g transform="translate(720 640) scale(2.5)"><ellipse cx="32" cy="61" rx="19" ry="2.6" fill="#000000" opacity=".38"/><use href="#pov-lum" fill="url(#pov-lum-teal)" stroke="#FFFFFF" stroke-opacity=".18" stroke-width=".7"/><use href="#pov-face"/></g>
+<text x="800" y="838" font-size="30" font-weight="700" fill="#EEF7FF" text-anchor="middle">Quill</text>
+<text x="800" y="872" font-size="22" fill="#A8BAC9" text-anchor="middle">arrives afterwards</text>
+<ellipse cx="1280" cy="756" rx="220" ry="146" fill="#A9B4C0" fill-opacity=".035" stroke="#A9B4C0" stroke-opacity=".3" stroke-width="2" stroke-dasharray="3 11"/>
+<circle cx="1280" cy="725" r="115" fill="url(#pov-halo-grey)"/>
+<g transform="translate(1200 640) scale(2.5)" opacity="0.92"><ellipse cx="32" cy="61" rx="19" ry="2.6" fill="#000000" opacity=".38"/><use href="#pov-lum" fill="url(#pov-lum-grey)" stroke="#FFFFFF" stroke-opacity=".18" stroke-width=".7"/><use href="#pov-face"/></g>
+<text x="1280" y="838" font-size="30" font-weight="700" fill="#EEF7FF" text-anchor="middle">Fenn</text>
+<text x="1280" y="872" font-size="22" fill="#A8BAC9" text-anchor="middle">no route to it</text>
+<path d="M624 370 C390 370 320 450 320 626" fill="none" stroke="#3FA9F5" stroke-width="5" stroke-linecap="round" marker-end="url(#pov-a-blue)"/>
+<text x="360" y="350" font-size="20" font-weight="700" fill="#8FCBFA" letter-spacing="1.5">SEES IT HAPPEN</text>
+<path d="M800 536 V566" stroke="#A9B4C0" stroke-width="4" stroke-dasharray="6 9" stroke-linecap="round"/>
+<path d="M800 582 V628" stroke="#2DD4BF" stroke-width="5" stroke-linecap="round" marker-end="url(#pov-a-teal)"/>
+<text x="824" y="600" font-size="20" font-weight="700" fill="#8CEBDD" letter-spacing="1.5">ARRIVES LATER</text>
+<path d="M976 370 C1210 370 1280 450 1280 576" fill="none" stroke="#A9B4C0" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round" opacity=".75"/>
+<path d="M1268 590 l24 24 M1292 590 l-24 24" stroke="#A9B4C0" stroke-width="5" stroke-linecap="round"/>
+<text x="1240" y="350" font-size="20" font-weight="700" fill="#A9B4C0" text-anchor="end" letter-spacing="1.5">NO ROUTE</text>
+<rect x="80" y="940" width="460" height="140" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="120" cy="980" r="8" fill="#3FA9F5"/>
+<text x="140" y="987" font-size="20" font-weight="700" fill="#8FCBFA" letter-spacing="1.5">DIRECT EVIDENCE</text>
+<text x="112" y="1030" font-size="28" font-weight="700" fill="#EEF7FF">“I saw the storm hit.”</text>
+<text x="112" y="1064" font-size="24" fill="#A8BAC9">Remembers it, and acts on it.</text>
+<rect x="570" y="940" width="460" height="140" rx="24" fill="#151D27" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="610" cy="980" r="8" fill="#2DD4BF"/>
+<text x="630" y="987" font-size="20" font-weight="700" fill="#8CEBDD" letter-spacing="1.5">LATER ENCOUNTER</text>
+<text x="602" y="1030" font-size="28" font-weight="700" fill="#EEF7FF">“The path has changed.”</text>
+<text x="602" y="1064" font-size="24" fill="#A8BAC9">Finds the aftermath. Revises.</text>
+<rect x="1060" y="940" width="460" height="140" rx="24" fill="#151D27" stroke="#A9B4C0" stroke-opacity="0.5" stroke-width="2"/>
+<circle cx="1100" cy="980" r="8" fill="#A9B4C0"/>
+<text x="1120" y="987" font-size="20" font-weight="700" fill="#A9B4C0" letter-spacing="1.5">NO ROUTE</text>
+<text x="1092" y="1030" font-size="28" font-weight="700" fill="#EEF7FF">No belief about it.</text>
+<text x="1092" y="1064" font-size="24" fill="#A8BAC9">The world knows. Fenn does not.</text>
+</svg>

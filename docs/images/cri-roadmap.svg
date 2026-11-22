@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1478" viewBox="0 0 1600 1478" role="img" aria-labelledby="road-title road-desc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="road-title">The road to CRI 1.0, and beyond: the CRI roadmap</title>
+<desc id="road-desc">Seven stages on one path, with no dates yet. You are here: stage 1. 1, Foundation (now): completing CRI inside Luminids, all seven areas from belief to culture, playable in the game; the native C++ core, and lives that survive saves. 2, Portable Engine (next): the engine-neutral core and ABI, a versioned API, packs for your own characters, and saved lives that restore anywhere. 3, CRI 1.0 (next), the first public release: open source under Apache-2.0, the Engine and SDK, first-class for Godot (2D and 3D), Unity, Unreal and web/TypeScript, with samples, docs, a stable API and migration support; contributions open with a Contributor License Agreement. 4, Models and self-hosting (after 1.0): optional language models, bringing a model to a character or giving an app a CRI mind, and a self-hosted API with privacy and erasure. 5, Beyond games (after 1.0): simulation and digital twins, companions and assistants, and research. 6, Services and support (later): integration, maintenance and support on the same free core. 7, Managed service (later): only when customers need it.</desc>
+<defs>
+  <radialGradient id="road-glow1" cx="1376" cy="0" r="880" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5" stop-opacity=".13"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="road-glow2" cx="0" cy="1478" r="720" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".07"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="road-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <clipPath id="road-card"><rect width="1600" height="1478" rx="40"/></clipPath>
+  <marker id="road-a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3FA9F5"/></marker>
+  <marker id="road-a-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+  <marker id="road-a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A9B4C0"/></marker>
+  <marker id="road-a-warm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F7C873"/></marker>
+  <marker id="road-a-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8FCBFA"/></marker>
+  <path id="road-lum" d="M31.75 4.04C32.42 4.10 36.30 4.45 37.49 4.72C38.68 4.98 41.23 5.93 42.22 6.41C43.22 6.88 45.45 8.31 46.28 8.94C47.10 9.57 48.83 11.23 49.49 11.98C50.14 12.73 51.54 14.72 52.02 15.53C52.50 16.33 53.25 17.58 53.71 19.08C54.17 20.57 55.21 26.94 56.07 28.71C56.94 30.47 60.56 33.70 61.31 34.62C62.06 35.54 62.47 36.34 62.66 36.81C62.85 37.29 63.02 38.46 63.00 38.84C62.98 39.22 62.76 39.89 62.49 40.19C62.23 40.50 60.98 41.37 60.63 41.54C60.29 41.72 59.87 41.79 59.45 41.71C59.03 41.64 57.53 41.18 56.92 40.87C56.31 40.56 54.66 38.67 54.05 39.01C53.43 39.36 52.01 43.14 51.51 43.91C51.01 44.68 50.23 45.33 49.65 45.77C49.08 46.21 46.96 46.67 46.44 47.80C45.93 48.93 45.40 54.55 45.09 55.74C44.79 56.92 44.18 57.79 43.74 58.27C43.30 58.75 41.74 59.79 41.21 59.96C40.67 60.13 39.49 60.00 39.01 59.79C38.53 59.58 37.40 59.10 36.98 58.10C36.56 57.11 36.23 51.81 35.29 51.01C34.36 50.20 29.66 50.16 28.71 51.01C27.75 51.85 27.27 57.44 26.85 58.44C26.43 59.43 25.51 59.64 24.99 59.79C24.47 59.94 22.82 59.96 22.29 59.79C21.75 59.62 20.62 58.69 20.26 58.27C19.90 57.85 19.34 56.84 19.08 56.07C18.81 55.31 18.07 52.45 17.89 51.51C17.72 50.57 17.96 48.45 17.56 47.80C17.15 47.14 14.92 46.21 14.35 45.77C13.77 45.33 12.99 44.68 12.49 43.91C11.99 43.14 10.76 39.28 9.95 39.01C9.15 38.74 6.18 41.28 5.39 41.54C4.61 41.81 3.47 41.53 3.03 41.38C2.59 41.22 1.74 40.48 1.51 40.19C1.28 39.91 1.02 39.22 1.00 38.84C0.98 38.46 1.07 37.39 1.34 36.81C1.61 36.24 2.62 34.69 3.37 33.77C4.11 32.85 7.31 29.51 7.93 28.71C8.54 27.90 8.62 27.39 8.77 26.68C8.92 25.97 9.09 23.37 9.28 22.46C9.47 21.54 9.91 19.72 10.46 18.57C11.02 17.42 13.33 13.43 14.18 12.32C15.02 11.21 17.07 9.42 17.89 8.77C18.72 8.12 20.46 7.03 21.44 6.57C22.42 6.12 25.36 4.98 26.51 4.72C27.66 4.45 30.98 4.29 31.58 4.21C32.17 4.13 31.08 3.98 31.75 4.04Z"/>
+  <g id="road-face"><ellipse cx="18.9" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="45.1" cy="30.6" rx="4.4" ry="2.9" fill="#FF8EA0" opacity=".5"/><ellipse cx="23" cy="24" rx="2.15" ry="3" fill="#141C26"/><ellipse cx="40.7" cy="24" rx="2.15" ry="3" fill="#141C26"/><circle cx="23.75" cy="22.75" r=".8" fill="#FFFFFF"/><circle cx="41.45" cy="22.75" r=".8" fill="#FFFFFF"/><path d="M28.6 29.4c1.8 2.3 5 2.3 6.8 0" fill="none" stroke="#141C26" stroke-width="1.6" stroke-linecap="round"/></g>
+  <radialGradient id="road-lum-blue" cx=".38" cy=".26" r=".82"><stop offset="0" stop-color="#C4E7FF"/><stop offset=".42" stop-color="#6CC0F8"/><stop offset=".78" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2A86CC"/></radialGradient>
+  <radialGradient id="road-halo-blue"><stop offset="0" stop-color="#3FA9F5" stop-opacity="0.28"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient><radialGradient id="road-halo-node"><stop offset="0" stop-color="#3FA9F5" stop-opacity="0.35"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1600" height="1478" rx="40" fill="#0D1117"/>
+<rect width="1600" height="1478" rx="40" fill="url(#road-glow1)"/>
+<rect width="1600" height="1478" rx="40" fill="url(#road-glow2)"/>
+<rect x="1" y="1" width="1598" height="1476" rx="39" fill="none" stroke="#1E2935" stroke-width="2"/>
+<rect x="80" y="91" width="36" height="4" rx="2" fill="url(#road-accent)"/>
+<text x="130" y="100" font-size="20" font-weight="700" fill="#A8BAC9" letter-spacing="3">ROADMAP</text>
+<text x="78" y="166" font-size="52" font-weight="800" fill="#EEF7FF" letter-spacing="-1">The road to CRI 1.0, and beyond.</text>
+<text x="80" y="212" font-size="26" fill="#A8BAC9">Where CRI is today, and what comes next. No dates yet: targets follow as the work progresses.</text>
+<rect x="372" y="262" width="1148" height="156" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.6" stroke-width="2"/>
+<rect x="402" y="286" width="91" height="36" rx="18" fill="#8FCBFA" fill-opacity="0.18" stroke="#8FCBFA" stroke-opacity=".5" stroke-width="1.5"/><text x="447.54" y="311.2" font-size="20" font-weight="700" fill="#8FCBFA" text-anchor="middle" letter-spacing="1.5">NOW</text>
+<text x="511.08" y="315" font-size="30" font-weight="800" fill="#EEF7FF">Foundation</text>
+<text x="404" y="360" font-size="24" fill="#C9D6E1">Completing CRI inside Luminids: all seven areas, belief to culture, playable in the game.</text>
+<text x="404" y="394" font-size="24" fill="#C9D6E1">The native C++ core, and lives that survive saves.</text>
+<rect x="372" y="436" width="1148" height="156" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="402" y="460" width="97" height="36" rx="18" fill="#3FA9F5" fill-opacity="0.1" stroke="#8FCBFA" stroke-opacity=".5" stroke-width="1.5"/><text x="450.345" y="485.2" font-size="20" font-weight="700" fill="#8FCBFA" text-anchor="middle" letter-spacing="1.5">NEXT</text>
+<text x="516.69" y="489" font-size="30" font-weight="800" fill="#EEF7FF">Portable Engine</text>
+<text x="404" y="534" font-size="24" fill="#C9D6E1">The engine-neutral core and ABI, a versioned API, and packs for your own characters.</text>
+<text x="404" y="568" font-size="24" fill="#C9D6E1">Saved lives that restore anywhere.</text>
+<rect x="372" y="610" width="1148" height="198" rx="24" fill="#122030" stroke="url(#road-accent)" stroke-width="3"/>
+<rect x="402" y="634" width="97" height="36" rx="18" fill="#3FA9F5" fill-opacity="0.1" stroke="#8FCBFA" stroke-opacity=".5" stroke-width="1.5"/><text x="450.345" y="659.2" font-size="20" font-weight="700" fill="#8FCBFA" text-anchor="middle" letter-spacing="1.5">NEXT</text>
+<text x="516.69" y="663" font-size="30" font-weight="800" fill="#EEF7FF">CRI 1.0</text>
+<text x="637.69" y="663" font-size="24" font-weight="600" fill="#F7C873">the first public release</text>
+<text x="404" y="708" font-size="24" fill="#C9D6E1">Open source under Apache-2.0: the Engine and SDK, first-class for Godot (2D and 3D),</text>
+<text x="404" y="742" font-size="24" fill="#C9D6E1">Unity, Unreal and web/TypeScript, with samples, docs, a stable API and migration support.</text>
+<text x="404" y="788" font-size="22" fill="#A8BAC9">Contributions open with a Contributor License Agreement (CLA).</text>
+<rect x="372" y="826" width="1148" height="156" rx="24" fill="#151D27" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="402" y="850" width="149" height="36" rx="18" fill="#2DD4BF" fill-opacity="0.1" stroke="#8CEBDD" stroke-opacity=".5" stroke-width="1.5"/><text x="476.61" y="875.2" font-size="20" font-weight="700" fill="#8CEBDD" text-anchor="middle" letter-spacing="1.5">AFTER 1.0</text>
+<text x="569.22" y="879" font-size="30" font-weight="800" fill="#EEF7FF">Models and self-hosting</text>
+<text x="404" y="924" font-size="24" fill="#A8BAC9">Optional language models: bring a model to a character, or give an app a CRI mind.</text>
+<text x="404" y="958" font-size="24" fill="#A8BAC9">A self-hosted API, with privacy and erasure.</text>
+<rect x="372" y="1000" width="1148" height="122" rx="24" fill="#151D27" stroke="#2DD4BF" stroke-opacity="0.4" stroke-width="1.5"/>
+<rect x="402" y="1024" width="149" height="36" rx="18" fill="#2DD4BF" fill-opacity="0.1" stroke="#8CEBDD" stroke-opacity=".5" stroke-width="1.5"/><text x="476.61" y="1049.2" font-size="20" font-weight="700" fill="#8CEBDD" text-anchor="middle" letter-spacing="1.5">AFTER 1.0</text>
+<text x="569.22" y="1053" font-size="30" font-weight="800" fill="#EEF7FF">Beyond games</text>
+<text x="404" y="1098" font-size="24" fill="#A8BAC9">Simulation and digital twins, companions and assistants, and research.</text>
+<rect x="372" y="1140" width="1148" height="122" rx="24" fill="#151D27" stroke="#A9B4C0" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="8 7"/>
+<rect x="402" y="1164" width="107" height="36" rx="18" fill="#A9B4C0" fill-opacity="0.08" stroke="#A9B4C0" stroke-opacity=".5" stroke-width="1.5"/><text x="455.7" y="1189.2" font-size="20" font-weight="700" fill="#A9B4C0" text-anchor="middle" letter-spacing="1.5">LATER</text>
+<text x="527.4" y="1193" font-size="30" font-weight="800" fill="#EEF7FF">Services and support</text>
+<text x="404" y="1238" font-size="24" fill="#A8BAC9">Integration, maintenance and support, offered on the same free core.</text>
+<rect x="372" y="1280" width="1148" height="122" rx="24" fill="#151D27" stroke="#A9B4C0" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="8 7"/>
+<rect x="402" y="1304" width="107" height="36" rx="18" fill="#A9B4C0" fill-opacity="0.08" stroke="#A9B4C0" stroke-opacity=".5" stroke-width="1.5"/><text x="455.7" y="1329.2" font-size="20" font-weight="700" fill="#A9B4C0" text-anchor="middle" letter-spacing="1.5">LATER</text>
+<text x="527.4" y="1333" font-size="30" font-weight="800" fill="#EEF7FF">Managed service</text>
+<text x="404" y="1378" font-size="24" fill="#A8BAC9">A hosted service, offered only when customers need it.</text>
+<path d="M300 338 V444" stroke="#3FA9F5" stroke-opacity=".75" stroke-width="5"/>
+<path d="M300 512 V618" stroke="#3FA9F5" stroke-opacity=".75" stroke-width="5"/>
+<path d="M300 686 V834" stroke="#2DD4BF" stroke-opacity=".75" stroke-width="5"/>
+<path d="M300 902 V1008" stroke="#2DD4BF" stroke-opacity=".75" stroke-width="5"/>
+<path d="M300 1076 V1148" stroke="#A9B4C0" stroke-opacity=".75" stroke-width="5" stroke-dasharray="4 10" stroke-linecap="round"/>
+<path d="M300 1216 V1288" stroke="#A9B4C0" stroke-opacity=".75" stroke-width="5" stroke-dasharray="4 10" stroke-linecap="round"/>
+<circle cx="300" cy="304" r="52" fill="url(#road-halo-node)"/>
+<circle cx="300" cy="304" r="28" fill="#3FA9F5"/>
+<text x="300" y="313" font-size="24" font-weight="800" fill="#0D1117" text-anchor="middle">1</text>
+<path d="M334 304 H368" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="478" r="26" fill="#151D27" stroke="#3FA9F5" stroke-width="3"/>
+<text x="300" y="486" font-size="22" font-weight="700" fill="#C9D6E1" text-anchor="middle">2</text>
+<path d="M334 478 H368" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="652" r="32" fill="#122030" stroke="url(#road-accent)" stroke-width="4"/>
+<text x="300" y="661" font-size="24" font-weight="800" fill="#EEF7FF" text-anchor="middle">3</text>
+<path d="M334 652 H368" stroke="#3FA9F5" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="868" r="26" fill="#151D27" stroke="#2DD4BF" stroke-width="3"/>
+<text x="300" y="876" font-size="22" font-weight="700" fill="#C9D6E1" text-anchor="middle">4</text>
+<path d="M334 868 H368" stroke="#2DD4BF" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="1042" r="26" fill="#151D27" stroke="#2DD4BF" stroke-width="3"/>
+<text x="300" y="1050" font-size="22" font-weight="700" fill="#C9D6E1" text-anchor="middle">5</text>
+<path d="M334 1042 H368" stroke="#2DD4BF" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="1182" r="26" fill="#151D27" stroke="#A9B4C0" stroke-width="3" stroke-dasharray="5 5"/>
+<text x="300" y="1190" font-size="22" font-weight="700" fill="#C9D6E1" text-anchor="middle">6</text>
+<path d="M334 1182 H368" stroke="#A9B4C0" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="300" cy="1322" r="26" fill="#151D27" stroke="#A9B4C0" stroke-width="3" stroke-dasharray="5 5"/>
+<text x="300" y="1330" font-size="22" font-weight="700" fill="#C9D6E1" text-anchor="middle">7</text>
+<path d="M334 1322 H368" stroke="#A9B4C0" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="164.8" cy="301.6" r="64.4" fill="url(#road-halo-blue)"/>
+<g transform="translate(120 254) scale(1.4)"><ellipse cx="32" cy="61" rx="19" ry="2.6" fill="#000000" opacity=".38"/><use href="#road-lum" fill="url(#road-lum-blue)" stroke="#FFFFFF" stroke-opacity=".18" stroke-width=".7"/><use href="#road-face"/></g>
+<text x="165" y="378" font-size="20" font-weight="700" fill="#F7C873" text-anchor="middle" letter-spacing="2">WE ARE HERE</text>
+</svg>

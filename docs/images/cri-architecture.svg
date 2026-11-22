@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1262" viewBox="0 0 1600 1262" role="img" aria-labelledby="arch-title arch-desc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+<title id="arch-title">How CRI fits into your game: game events in, character responses out</title>
+<desc id="arch-desc">The game knows what happened; CRI keeps what each character knows. Your game or engine (Unity, Unreal Engine, Godot or your own, alongside your behaviour trees, state machines or GOAP) sends events in, through world adapters, to the CRI Engine, a native C++ core. For each character the engine records what it saw, what it remembered, what it believed and how it responded, from its own character state: memory, belief, expectation, relationship and history. Behaviour goes back out to the game with its reasons. An optional language model gives characters their words but never owns their memory or identity. CRI Trace records evidence, state, intent, action, outcome and revision when it happened.</desc>
+<defs>
+  <radialGradient id="arch-glow1" cx="1376" cy="0" r="880" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3FA9F5" stop-opacity=".13"/><stop offset="1" stop-color="#3FA9F5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="arch-glow2" cx="0" cy="1262" r="720" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".07"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient>
+  <linearGradient id="arch-accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3FA9F5"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient>
+  <clipPath id="arch-card"><rect width="1600" height="1262" rx="40"/></clipPath>
+  <marker id="arch-a-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#3FA9F5"/></marker>
+  <marker id="arch-a-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2DD4BF"/></marker>
+  <marker id="arch-a-grey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#A9B4C0"/></marker>
+  <marker id="arch-a-warm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#F7C873"/></marker>
+  <marker id="arch-a-soft" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#8FCBFA"/></marker>
+  <symbol id="arch-ic-perception" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M10 15a20 20 0 0 1 0 18" stroke="#3FA9F5" opacity=".35"/>
+    <path d="M17.5 18.5a13 13 0 0 1 0 11" stroke="#3FA9F5" opacity=".62"/>
+    <path d="M25 22a6 6 0 0 1 0 4" stroke="#3FA9F5"/>
+    <circle cx="36" cy="24" r="4.2" fill="#F7C873" stroke="none"/>
+  </g></symbol>
+  <symbol id="arch-ic-memory" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <rect x="15" y="10" width="18" height="6" rx="3" fill="#3FA9F5" opacity=".3" stroke="none"/>
+    <rect x="12.5" y="20" width="23" height="6.5" rx="3.25" fill="#3FA9F5" opacity=".6" stroke="none"/>
+    <rect x="10" y="30.5" width="28" height="8" rx="4" fill="#3FA9F5" stroke="none"/>
+  </g></symbol>
+  <symbol id="arch-ic-belief" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <rect x="9" y="9" width="30" height="16" rx="8" stroke="#EEF7FF"/>
+    <path d="M16 25v13" stroke="#3FA9F5"/>
+    <path d="M24 25v13" stroke="#3FA9F5"/>
+    <path d="M32 25v6.5" stroke="#A9B4C0"/>
+  </g></symbol>
+  <symbol id="arch-ic-action" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <circle cx="11" cy="37" r="3.7" fill="#3FA9F5" stroke="none"/>
+    <path d="M14 34 26.5 21.5" stroke="#EEF7FF"/>
+    <circle cx="30.5" cy="17.5" r="3.6" fill="#F7C873" stroke="none"/>
+    <path d="M35.5 12.5a10.5 10.5 0 0 1 0 10" stroke="#F7C873" stroke-width="3.4" opacity=".7"/>
+  </g></symbol>
+  <symbol id="arch-ic-inspect" viewBox="0 0 48 48"><g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M8 14h16" stroke="#EEF7FF" opacity=".8"/>
+    <path d="M8 23h10" stroke="#EEF7FF" opacity=".8"/>
+    <path d="M8 32h13.5" stroke="#EEF7FF" opacity=".8"/>
+    <circle cx="31.5" cy="22" r="8" stroke="#3FA9F5"/>
+    <path d="M37.5 28 42 32.5" stroke="#3FA9F5"/>
+  </g></symbol>
+</defs>
+<rect width="1600" height="1262" rx="40" fill="#0D1117"/>
+<rect width="1600" height="1262" rx="40" fill="url(#arch-glow1)"/>
+<rect width="1600" height="1262" rx="40" fill="url(#arch-glow2)"/>
+<rect x="1" y="1" width="1598" height="1260" rx="39" fill="none" stroke="#1E2935" stroke-width="2"/>
+<rect x="80" y="91" width="36" height="4" rx="2" fill="url(#arch-accent)"/>
+<text x="130" y="100" font-size="20" font-weight="700" fill="#A8BAC9" letter-spacing="3">HOW CRI FITS INTO YOUR GAME</text>
+<text x="78" y="166" font-size="52" font-weight="800" fill="#EEF7FF" letter-spacing="-1">Game events in. Character responses out.</text>
+<text x="80" y="212" font-size="26" fill="#A8BAC9">The game knows what happened. CRI keeps what each character knows.</text>
+<rect x="80" y="258" width="1440" height="168" rx="24" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.4" stroke-width="2"/>
+<text x="116" y="306" font-size="20" font-weight="700" fill="#8FA3B5" letter-spacing="3">YOUR GAME OR ENGINE</text>
+<text x="116" y="348" font-size="28" font-weight="700" fill="#EEF7FF">The world, its events, and what each character can do.</text>
+<rect x="116" y="366" width="101" height="44" rx="22" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="166.56" y="395.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Unity</text>
+<rect x="229.12" y="366" width="195" height="44" rx="22" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="326.6" y="395.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Unreal Engine</text>
+<rect x="436.08" y="366" width="109" height="44" rx="22" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="490.72" y="395.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Godot</text>
+<rect x="557.36" y="366" width="227" height="44" rx="22" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.45" stroke-width="1.5"/><text x="670.65" y="395.92" font-size="22" font-weight="600" fill="#C9D6E1" text-anchor="middle">Your own engine</text>
+<text x="809.94" y="396" font-size="22" fill="#A8BAC9">alongside your behaviour trees, state machines or GOAP</text>
+<path d="M430 432 V552" stroke="#3FA9F5" stroke-width="5" marker-end="url(#arch-a-blue)"/>
+<text x="456" y="478" font-size="26" font-weight="700" fill="#EEF7FF">Events in</text>
+<text x="456" y="510" font-size="22" fill="#A8BAC9">what each character could perceive</text>
+<path d="M970 556 V436" stroke="#2DD4BF" stroke-width="5" marker-end="url(#arch-a-teal)"/>
+<text x="996" y="478" font-size="26" font-weight="700" fill="#EEF7FF">Behaviour out</text>
+<text x="996" y="510" font-size="22" fill="#A8BAC9">intentions, with their reasons</text>
+<rect x="80" y="560" width="1440" height="56" rx="16" fill="#0F1620" stroke="#263241" stroke-width="1.5"/>
+<text x="800" y="596" font-size="20" font-weight="700" fill="#A8BAC9" text-anchor="middle" letter-spacing="2">WORLD ADAPTERS  ·  one core, an integration for each engine</text>
+<path d="M430 616 V646" stroke="#3FA9F5" stroke-width="5" marker-end="url(#arch-a-blue)"/>
+<path d="M970 652 V622" stroke="#2DD4BF" stroke-width="5" marker-end="url(#arch-a-teal)"/>
+<rect x="80" y="652" width="1060" height="372" rx="28" fill="#122030" stroke="url(#arch-accent)" stroke-width="3"/>
+<text x="116" y="702" font-size="20" font-weight="700" fill="#8FCBFA" letter-spacing="3">CRI ENGINE  ·  NATIVE C++ CORE</text>
+<text x="116" y="744" font-size="30" font-weight="700" fill="#EEF7FF">The intelligence behind each character</text>
+<rect x="116" y="776" width="226" height="132" rx="20" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.5" stroke-width="1.5"/>
+<use href="#arch-ic-perception" x="203" y="784" width="52" height="52"/>
+<text x="229" y="864" font-size="26" font-weight="700" fill="#EEF7FF" text-anchor="middle">Saw</text>
+<text x="229" y="894" font-size="22" fill="#A8BAC9" text-anchor="middle">what reached it</text>
+<path d="M347 842 H365" stroke="#3FA9F5" stroke-width="3" marker-end="url(#arch-a-blue)"/>
+<rect x="372" y="776" width="226" height="132" rx="20" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.5" stroke-width="1.5"/>
+<use href="#arch-ic-memory" x="459" y="784" width="52" height="52"/>
+<text x="485" y="864" font-size="26" font-weight="700" fill="#EEF7FF" text-anchor="middle">Remembered</text>
+<text x="485" y="894" font-size="22" fill="#A8BAC9" text-anchor="middle">and can forget</text>
+<path d="M603 842 H621" stroke="#3FA9F5" stroke-width="3" marker-end="url(#arch-a-blue)"/>
+<rect x="628" y="776" width="226" height="132" rx="20" fill="#0F1620" stroke="#3FA9F5" stroke-opacity="0.5" stroke-width="1.5"/>
+<use href="#arch-ic-belief" x="715" y="784" width="52" height="52"/>
+<text x="741" y="864" font-size="26" font-weight="700" fill="#EEF7FF" text-anchor="middle">Believed</text>
+<text x="741" y="894" font-size="22" fill="#A8BAC9" text-anchor="middle">and can be wrong</text>
+<path d="M859 842 H877" stroke="#3FA9F5" stroke-width="3" marker-end="url(#arch-a-blue)"/>
+<rect x="884" y="776" width="226" height="132" rx="20" fill="#0F1620" stroke="#2DD4BF" stroke-opacity="0.5" stroke-width="1.5"/>
+<use href="#arch-ic-action" x="971" y="784" width="52" height="52"/>
+<text x="997" y="864" font-size="26" font-weight="700" fill="#EEF7FF" text-anchor="middle">Responded</text>
+<text x="997" y="894" font-size="22" fill="#A8BAC9" text-anchor="middle">from its own state</text>
+<rect x="116" y="928" width="988" height="68" rx="18" fill="#0F1620" stroke="#263241" stroke-width="1.5"/>
+<text x="140" y="971" font-size="20" font-weight="700" fill="#8FA3B5" letter-spacing="2.5">CHARACTER STATE</text>
+<text x="404.64" y="971" font-size="24" fill="#C9D6E1">memory · belief · expectation · relationship · history</text>
+<rect x="1200" y="652" width="320" height="372" rx="28" fill="#151D27" stroke="#A9B4C0" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="9 8"/>
+<rect x="1230" y="708" width="152" height="38" rx="19" fill="#A9B4C0" fill-opacity="0.1" stroke="#A9B4C0" stroke-opacity=".5" stroke-width="1.5"/><text x="1305.88" y="734.2" font-size="20" font-weight="700" fill="#A9B4C0" text-anchor="middle" letter-spacing="1.5">OPTIONAL</text>
+<text x="1230" y="798" font-size="28" font-weight="700" fill="#EEF7FF">Language model</text>
+<text x="1230" y="850" font-size="24" fill="#A8BAC9">Gives characters</text>
+<text x="1230" y="884" font-size="24" fill="#A8BAC9">their words.</text>
+<text x="1230" y="934" font-size="24" fill="#C9D6E1">Never owns their</text>
+<text x="1230" y="968" font-size="24" fill="#C9D6E1">memory or identity.</text>
+<path d="M1146 838.0 H1194" stroke="#A9B4C0" stroke-width="3" stroke-dasharray="6 6"/>
+<path d="M610.0 1024 V1054" stroke="#263241" stroke-width="3"/>
+<rect x="80" y="1054" width="1440" height="128" rx="22" fill="#151D27" stroke="#3FA9F5" stroke-opacity="0.35" stroke-width="1.5"/>
+<use href="#arch-ic-inspect" x="108" y="1076" width="52" height="52"/>
+<text x="176" y="1104" font-size="20" font-weight="700" fill="#8FCBFA" letter-spacing="3">CRI TRACE</text>
+<text x="329.62" y="1104" font-size="22" fill="#A8BAC9">why it happened, recorded when it happened</text>
+<text x="176" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">evidence</text>
+<text x="308.28" y="1150" font-size="26" font-weight="600" fill="#3FA9F5">→</text>
+<text x="354.28" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">state</text>
+<text x="433.52" y="1150" font-size="26" font-weight="600" fill="#3FA9F5">→</text>
+<text x="479.52" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">intent</text>
+<text x="568.96" y="1150" font-size="26" font-weight="600" fill="#3FA9F5">→</text>
+<text x="614.96" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">action</text>
+<text x="710.52" y="1150" font-size="26" font-weight="600" fill="#3FA9F5">→</text>
+<text x="756.52" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">outcome</text>
+<text x="884.72" y="1150" font-size="26" font-weight="600" fill="#3FA9F5">→</text>
+<text x="930.72" y="1150" font-size="26" font-weight="600" fill="#C9D6E1">revision</text>
+</svg>
